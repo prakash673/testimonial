@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    background-color: #90a33c;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 350px;
+    width: 500px;
+    /* border: 1px solid rebeccapurple; */
+    margin: 15% 15% 0%;
+    border-radius: 10px;
+    background-color: #57741567;
+    position: relative;
+}
+
+.testi-para{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 30%;
+    background-color: #702e30;
+    margin: 15PX;
+}
+
+.testi-name{
+    font-size: 18px;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    color: #63151e;
+    background-color: transparent;
+    
+}
+.testi-img{
+    position: relative;
+    top: -30%;
+    left: 30%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-bottom:5px solid #FC929E;
+}
+
+
+
+@media screen and (max-width: 765px) {
+    .container{
+        height: 450px;
+        width: 800px;
+        /* border: 1px solid rebeccapurple; */
+        margin: 25% 15% 0%;
+        border-radius: 10px;
+        background-color: #FFDFE0;
+        position: relative;
+    }
+    
+    .testi-para{
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        top: 30%;
+        background-color: #FFDFE0;
+        margin: 15PX;
+    }
+    
+    .testi-name{
+        font-size: 18px;
+        position: absolute;
+        top: 80%;
+        left: 35%;
+        color: #e43145;
+        background-color: transparent;
+        
+    }
+    .testi-img{
+        position: relative;
+        top: -18%;
+        left: 23%;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border-bottom:5px solid #FC929E;
+    }
+    
+}
+
+@media screen and (min-width: 200px) and (max-width : 374px) {
+    .container{
+        height: 400px;
+        width: 800px;
+        /* border: 1px solid rebeccapurple; */
+        margin: 25% 15% 0%;
+        border-radius: 10px;
+        background-color: #FFDFE0;
+        position: relative;
+    }
+    
+    .testi-para{
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        top: 15%;
+        background-color: #FFDFE0;
+        margin: 15PX;
+    }
+    
+    .testi-name{
+        font-size: 18px;
+        position: absolute;
+        top: 80%;
+        left: 30%;
+        color: #e43145;
+        background-color: transparent;
+        
+    }
+    .testi-img{
+        position: relative;
+        top: -12%;
+        left: 25%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border-bottom:5px solid #FC929E;
+    }
+    
+}
